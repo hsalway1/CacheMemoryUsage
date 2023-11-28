@@ -10,7 +10,7 @@ on:
 jobs:  
   cache_memory_usage:
     name: Cache Memory Usage
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - name: Checkout the code
         uses: actions/checkout@v3
