@@ -16,5 +16,6 @@ do
   ((elapsed_time+=5))
 done
 
+sleep 180
 echo "Timed out waiting for the emulator to start"
 exit 1
