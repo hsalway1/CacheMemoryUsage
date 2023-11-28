@@ -23,8 +23,6 @@ jobs:
   
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
-        with:
-          sdk-version: '30'
   
       - name: Create emulator
         run: |
