@@ -29,7 +29,7 @@ jobs:
   
       - name: Create emulator
         run: |
-          echo no | avdmanager create avd --force --name test --abi goggle_apis/x86_64 --package 'system-images;android-30;google_apis;x86_64'
+          echo no | avdmanager create avd --force --name test --abi goggle_apis/x86_64 --package 'system-images;android-29;google_apis_playstore;x86_64'
   
       - name: Start emulator
         run: |
